@@ -852,7 +852,7 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 1.7em;
     color: #fff;
     text-align: center;
-    background: #97d7ff;
+    background: #6ec6fc;
 }
 
 .site-footer a {
@@ -886,7 +886,7 @@ margin on the iframe, cause it breaks stuff. */
     top: -14px;
     left: 50%;
     margin-left: -15px;
-    border: #97d7ff 1px solid;
+    border: #6ec6fc 1px solid;
     text-align: center;
     line-height: 2.4rem;
     border-radius: 50px;
@@ -896,7 +896,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* The RSS icon, inserted via icon font */
 .subscribe:before {
-    color: #D2DEE3;
+    color: #6ec6fc;
     font-size: 10px;
     position: absolute;
     top: 9px;
