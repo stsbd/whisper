@@ -481,6 +481,7 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    color:#fff076;
 }
 
 .blog-description {
@@ -1148,3 +1149,21 @@ margin on the iframe, cause it breaks stuff. */
    End of file. Media queries should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
+
+ul.social {
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+}
+
+ul.social li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+ul.social li:last-child {
+    margin-right: 0px;
+}
