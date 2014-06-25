@@ -1156,6 +1156,7 @@ ul.social {
     list-style: none;
     padding: 0px;
     margin: auto;
+    margin-top: 20px;
 }
 
 ul.social li {
