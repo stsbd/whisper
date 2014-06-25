@@ -846,17 +846,17 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     margin: 8rem 0 0 0;
     padding: 4rem 0;
-    border-top: #EBF2F6 1px solid;
+    border-top: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
-    color: #BBC7CC;
+    color: #fff;
     text-align: center;
-    background: #F7FAFB;
+    background: #97d7ff;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #fdc0d6;
     text-decoration: underline;
 }
 
@@ -886,7 +886,7 @@ margin on the iframe, cause it breaks stuff. */
     top: -14px;
     left: 50%;
     margin-left: -15px;
-    border: #EBF2F6 1px solid;
+    border: #97d7ff 1px solid;
     text-align: center;
     line-height: 2.4rem;
     border-radius: 50px;
