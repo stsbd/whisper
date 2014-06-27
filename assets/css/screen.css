@@ -823,7 +823,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .pagination a {
-    color: #9EABB3;
+    color: rgb(255, 123, 123);
 }
 
 /* Push the previous/next links out to the left/right */
