@@ -21,8 +21,11 @@
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 
+    <link href="{{asset "assets/syntaxhighlighter/styles/shCore.css"}}" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="{{asset "assets/syntaxhighlighter/styles/shCoreDefault.css"}}"/>
+    <link type="text/css" rel="stylesheet" href="{{asset "assets/syntaxhighlighter/styles/shThemeDefault.css"}}"/>
+
     <script type="text/javascript" src="{{asset "assets/syntaxhighlighter/scripts/shCore.js"}}"></script>
-    <script type="text/javascript" src="{{asset "assets/syntaxhighlighter/scripts/shBrushJScript.js"}}"></script>
     <script type="text/javascript" src="{{asset "assets/syntaxhighlighter/scripts/shAutoloader.js"}}"></script>
 
     <script type="text/javascript">
@@ -67,10 +70,8 @@
       SyntaxHighlighter.all();
     </script>
 
-    <link href="{{asset "assets/syntaxhighlighter/styles/shCore.css"}}" rel="stylesheet" type="text/css" />
-    <link type="text/css" rel="stylesheet" href="{{asset "assets/syntaxhighlighter/styles/shCoreDefault.css"}}"/>
-    <link type="text/css" rel="stylesheet" href="{{asset "assets/syntaxhighlighter/styles/shThemeDefault.css"}}"/>
     <script type="text/javascript">SyntaxHighlighter.all();</script>
+    
 </head>
 <body class="{{body_class}}">
 <a href="https://plus.google.com/+MazharAhmedPro?rel=author" style="display:none;" id="g-author">author</a>
