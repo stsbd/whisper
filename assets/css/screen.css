@@ -716,6 +716,12 @@ margin on the iframe, cause it breaks stuff. */
 .post-footer .author {
     margin-right: 180px;
     margin-left:120px;
+    vertical-align: top;
+}
+
+.post-footer .author-img {
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* Drop the share links in the space to the right.
