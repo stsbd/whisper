@@ -1128,10 +1128,19 @@ margin on the iframe, cause it breaks stuff. */
         text-align: center;
     }
 
+    .post-footer .author-img {
+        position: static;
+        width: auto;
+        text-align: center;
+        margin-bottom: 17px;
+        padding-bottom: 17px;
+        border-bottom: 1px dashed #FCC471;
+    }
+
     .post-footer .author {
         margin: 0 0 2rem 0;
         padding: 0 0 1.6rem 0;
-        border-bottom: #EBF2F6 1px dashed;
+        border-bottom: #FCC471 1px dashed;
     }
 
     .post-footer .share {
