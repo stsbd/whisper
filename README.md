@@ -1,5 +1,6 @@
 ##Whisper
 
-A custom Casper theme (ghost) for [My Blog](http://www.mazharahmed.me).
+A Ghost Theme based of the default ghost theme named Casper.
+Have a look a the demo in [My Blog](http://www.mazharahmed.me).
 
-It's of-course free of charge as the parent theme is under MIT license.
+The parent theme is under MIT license so this theme is also under MIT license.
