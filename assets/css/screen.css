@@ -1202,3 +1202,15 @@ ul.social li {
 ul.social li:last-child {
     margin-right: 0px;
 }
+
+/* featured post */
+article.post.featured {
+    border-radius: 5px;
+    padding: 10px 20px 20px 20px;
+    border: 1px dashed rgb(255, 142, 142);
+    background-color: rgb(250, 255, 250);
+}
+
+article.post.featured h2.post-title a {
+    color: rgb(255, 148, 148);
+}
