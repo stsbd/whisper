@@ -1204,6 +1204,7 @@ ul.social li:last-child {
 }
 
 /* featured post */
+/*
 article.post.featured {
     border-radius: 5px;
     padding: 10px 20px 20px 20px;
@@ -1214,3 +1215,4 @@ article.post.featured {
 article.post.featured h2.post-title a {
     color: rgb(255, 148, 148);
 }
+*/
