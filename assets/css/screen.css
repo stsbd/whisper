@@ -1216,6 +1216,7 @@ ul.social li:last-child {
     color: rgb(255, 148, 148);
 }
 
+/* return to my blog link */
 .return-link {
     text-align: right;
     margin: 50px 0px 0px 0px;
@@ -1239,4 +1240,9 @@ ul.social li:last-child {
 
 .return-link a.btn:hover {
     color:rgb(255, 251, 160);
+}
+
+/* extra space before the disqus */
+.post-comments {
+    margin-top: 100px;
 }
