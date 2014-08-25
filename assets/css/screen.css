@@ -1216,3 +1216,28 @@ article.post.featured h2.post-title a {
     color: rgb(255, 148, 148);
 }
 */
+
+.return-link {
+    text-align: right;
+    margin: 50px 0px 0px 0px;
+    border-top: #6ec6fc 1px solid;
+    padding: 35px 10px;
+}
+
+.return-link .label {
+    float: left;
+    color: rgb(255, 155, 155);
+}
+
+.return-link a.btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 155, 155);
+    padding: 8px 12px;
+    border-radius: 5px;
+    /* border-top: 1px solid red; */
+    margin: 0px;
+}
+
+.return-link a.btn:hover {
+    color:rgb(255, 251, 160);
+}
