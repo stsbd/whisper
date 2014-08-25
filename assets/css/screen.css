@@ -1205,18 +1205,16 @@ ul.social li:last-child {
 }
 
 /* featured post */
-/*
-article.post.featured {
+.post-list article.post.featured {
     border-radius: 5px;
     padding: 10px 20px 20px 20px;
     border: 1px dashed rgb(255, 142, 142);
     background-color: rgb(250, 255, 250);
 }
 
-article.post.featured h2.post-title a {
+.post-list article.post.featured h2.post-title a {
     color: rgb(255, 148, 148);
 }
-*/
 
 .return-link {
     text-align: right;
