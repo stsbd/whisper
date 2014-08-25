@@ -670,6 +670,7 @@ margin on the iframe, cause it breaks stuff. */
     margin: 4rem 0 0 0;
     padding: 4rem 0 0 0;
     border-top: #6ec6fc 1px solid;
+    margin-top:0px;
 }
 
 .post-footer h4 {
