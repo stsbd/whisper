@@ -29,6 +29,14 @@
                 {{content}}
             </section>
 
+            <section class="return-link">
+              <a class="label" href="{{@blog.url}}">More from <script>
+                var name = "{{author.name}}";
+                document.write(name.split(" ")[0]);
+              </script> !</a>
+              <a class="btn" href="{{@blog.url}}">Back to my Blog</a>
+            </section>
+
             <footer class="post-footer">
                 <section class="author-img">
                     <img src="{{@blog.logo}}" alt="Blog Logo" width="100" />

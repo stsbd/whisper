@@ -670,6 +670,7 @@ margin on the iframe, cause it breaks stuff. */
     margin: 4rem 0 0 0;
     padding: 4rem 0 0 0;
     border-top: #6ec6fc 1px solid;
+    margin-top:0px;
 }
 
 .post-footer h4 {
@@ -1201,4 +1202,47 @@ ul.social li {
 
 ul.social li:last-child {
     margin-right: 0px;
+}
+
+/* featured post */
+.post-list article.post.featured {
+    border-radius: 5px;
+    padding: 10px 20px 20px 20px;
+    border: 1px dashed rgb(255, 142, 142);
+    background-color: rgb(250, 255, 250);
+}
+
+.post-list article.post.featured h2.post-title a {
+    color: rgb(255, 148, 148);
+}
+
+/* return to my blog link */
+.return-link {
+    text-align: right;
+    margin: 50px 0px 0px 0px;
+    border-top: #6ec6fc 1px solid;
+    padding: 35px 10px;
+}
+
+.return-link .label {
+    float: left;
+    color: rgb(255, 155, 155);
+}
+
+.return-link a.btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 155, 155);
+    padding: 8px 12px;
+    border-radius: 5px;
+    /* border-top: 1px solid red; */
+    margin: 0px;
+}
+
+.return-link a.btn:hover {
+    color:rgb(255, 251, 160);
+}
+
+/* extra space before the disqus */
+.post-comments {
+    margin-top: 100px;
 }

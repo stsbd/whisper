@@ -12,7 +12,27 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" type="image/png" href="{{asset "favicon.png"}}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{asset "favicons/apple-touch-icon-57x57.png"}}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{asset "favicons/apple-touch-icon-114x114.png"}}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{asset "favicons/apple-touch-icon-72x72.png"}}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{asset "favicons/apple-touch-icon-144x144.png"}}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{asset "favicons/apple-touch-icon-60x60.png"}}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{asset "favicons/apple-touch-icon-120x120.png"}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset "favicons/apple-touch-icon-76x76.png"}}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{asset "favicons/apple-touch-icon-152x152.png"}}">
+    <meta name="apple-mobile-web-app-title" content="{{meta_title}}">
+    <link rel="icon" type="image/png" href="{{asset "favicons/favicon-196x196.png"}}" sizes="196x196">
+    <link rel="icon" type="image/png" href="{{asset "favicons/favicon-160x160.png"}}" sizes="160x160">
+    <link rel="icon" type="image/png" href="{{asset "favicons/favicon-96x96.png"}}" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{asset "favicons/favicon-16x16.png"}}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{asset "favicons/favicon-32x32.png"}}" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{asset "favicons/mstile-144x144.png"}}">
+    <meta name="msapplication-config" content="{{asset "favicons/browserconfig.xml"}}">
+    <meta name="application-name" content="{{meta_title}}">
+
+    <!-- pinterest -->
+    <meta name="p:domain_verify" content="8169c27a4e095fdb78c50a1113c81e7e"/>
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
@@ -58,13 +78,23 @@
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
+    <script type="text/javascript">
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];
         e.src='//www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
         ga('create','UA-48146313-1');ga('send','pageview');
+    </script>
+
+    <!-- search field from swiftype -->
+    <script type="text/javascript">
+      (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+      (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+      e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+      })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+      _st('install','mwpM2YfhZigo9gWHsKSA');
     </script>
 </body>
 </html>
