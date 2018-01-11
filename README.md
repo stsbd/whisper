@@ -1,4 +1,4 @@
-##Whisper
+## Whisper
 
 A Ghost Theme based of the default ghost theme named Casper.
 Have a look a the demo [here](http://www.mazharahmed.me).
